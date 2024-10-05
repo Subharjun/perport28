@@ -1,0 +1,225 @@
+.container {
+    max-width: 70pc;
+}
+
+.container *, .profile-container * {
+  text-decoration: none;
+}
+
+.background-container {
+    height: 30pc;
+    width: 100%;
+}
+
+.background-container .background, .background-container .background-shade{
+    position: absolute;
+    margin: auto;
+    top: 0;right: 0;left: 0;
+    z-index: -1;
+}
+
+.background-shade {
+    height: 30pc;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(30, 35, 51, 0) 60%, #1E2333 100%);
+}
+
+.background {
+    height: 30pc;
+    width: 100%;
+    background: url('./components/wp.jpg');
+    background-size: 100%;
+    background-position: center;
+}
+
+.projects, .about-page{
+    min-height: 20pc;
+}
+
+.profile-container {
+    height: 20pc;
+    width: fit-content;
+    position: absolute;
+    margin: auto;
+    top: 10%;right: 0;left: 0;
+    z-index: 3 !important;
+}
+
+.profile-container * {
+    color: #fff;
+}
+
+.profile-name {
+    font-family: 'Yellowtail', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+.profile-desc {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.socials {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 100px;
+    gap: 20px;
+    
+}
+
+.socials * {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .background {
+        background-size: cover;
+    }
+    .profile-name {
+        font-size: 27px;
+    }
+    .profile-desc {
+        font-size: 14px;
+    }
+}
+
+.tabs {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tabs * {
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    color: #7A9FB4;
+    transition: 0.3s ease-in-out;
+}
+.tabs *.open {
+    color: #fff;
+    border-bottom: 2px solid #7A9FB4;
+    font-size: large;
+}
+
+
+.projects-page {
+    padding: 0 20px;
+    display: grid;
+    grid-gap: 17px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.projects-page * {
+    text-align: left;
+    color: #7A9FB4;
+}
+
+.project-thumbnail {
+    width: 100%;
+    border-radius: 10px;
+    height:180px;
+}
+
+.project-name {
+    color: #fff;
+    font-size: 26px;
+}
+
+.project-tools {
+    width: 100%;
+    display: flex;
+    margin: 5px 0 10px 0;
+}
+
+.project-tools span {
+    font-size: 10px;
+    border-radius: 4px;
+    margin-right: 6px;
+    padding: 4px 8px;
+    background-color: #7A9FB4;
+    color: #1E2333;
+    white-space: nowrap;
+}
+
+.project-desc {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.project-links {
+    width: fit-content;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.project-links a {
+    margin: auto 0;
+    width:fit-content;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.project-links a:hover * {
+    color: #fff;
+}
+
+.project-links abbr {
+    margin: auto 0;
+}
+
+.project-links span {
+    margin: auto 0;
+    margin-right: 12px;
+}
+
+
+.about-page h1, .projects h1{
+    color: #7A9FB4;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.about-page .socials {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    max-width: 20pc;
+}
+.about-page .socials * {
+    color: #fff;
+    font-size: 24px;
+}
+
+.about-code {
+    width: 100% !important ;
+    background-color: #1E2333; 
+}
+.ace_gutter {
+    background-color: #1E2333 !important; 
+}
+.about-code * {
+    font-family: monospace !important;
+}
+
+.footer{
+    margin-top: 40px;
+    color: #A0C6DC;
+    background-color: #090E1E;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+@media (max-width:400px){
+    .projects-page {
+        padding: 0 20px;
+        display: grid;
+        grid-gap: 17px;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
