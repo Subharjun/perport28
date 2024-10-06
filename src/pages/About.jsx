@@ -33,7 +33,7 @@ function About() {
     // Improving my web development skills with everyday technologies
     constructor(){
         this.name = "Subharjun Bose";
-        Computer Science Engineer....
+        "Computer Science Engineer...."
     }
     workExperience() {
         return [
@@ -47,7 +47,7 @@ function About() {
         ]
     }
     skills() {
-        return [ 'HTML/CSS/JS' ,'ReactJS', 'Git/Github' , 'NodeJS' , 'Java', 'SQL/NOSQL]
+        return [ 'HTML/CSS/JS' ,'ReactJS', 'Git/Github' , 'NodeJS' , 'Java', 'SQL/NOSQL']
     }
     everydayTarget(){
         return [{'Solve atleast 2 problems from leetcode'}, 
