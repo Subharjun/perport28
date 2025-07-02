@@ -27,35 +27,60 @@ function About() {
   })
 
   const codeText = document.createElement('textarea');
-  codeText.value = ` class Portfolio{
-    // I love challenges
-    // Currently actively solving ds and algo problems from Leetcode
-    // Improving my web development skills with everyday technologies
+  codeText.value = `  class Portfolio {
+    // Focused on mastering problem-solving through consistent DSA practice.
+    // Currently building and refining two long-term full-stack/ML projects.
+    // Exploring how machine learning and real-time systems can solve real problems.
+    // Strengthening core skills: clean code, system design, and deployment.
+    // Balancing learning with building — not perfect, but progressing.
+
     constructor(){
-        this.name = "Subharjun Bose";
-        "Computer Science Engineer...."
+         this.name = "Subharjun Bose";
+         this.title = "Computer Science Engineer";
     }
+
     workExperience() {
         return [
-        { 'April 2022 - October 2022': 'Teaching assistant at Brainly'),
-        { 'September 2024 - October 2024': 'React.js intern at CodSoft' },
-        ]
+            { 'April 2022 - October 2022': 'Teaching assistant at Brainly' },
+            { 'September 2023 - Present': 'Member at GDG on Campus' }
+        ];
     }
+
     education() {
         return [
-        'Present - 2026': 'B Tech at GNIT, Kolkata, West Bengal',
-        ]
+            { '2022 - 2026': 'B Tech at GNIT, Kolkata, West Bengal' }
+        ];
     }
+
     skills() {
-        return [ 'HTML/CSS/JS' ,'ReactJS', 'Git/Github' , 'NodeJS' , 'Java', 'SQL/NOSQL']
-    }
+        return [
+            'HTML/CSS/JS',
+            'ReactJS',
+            'Git/GitHub',
+            'NodeJS',
+            'JavaScript',
+            'SQL/NoSQL',
+            'Machine Learning',
+            'NextJS',
+            'ThreeJS',
+            'Docker',
+            'Streamlit',
+            'Python',
+            'Operating Systems',
+            'Computer Networks'
+        ];
+    }    
+
     everydayTarget(){
-        return [{'Solve atleast 2 problems from leetcode'}, 
-        {'Discover new algorithms'}, 
-        {'Learn about new techs'}
-        ]
+        return [
+            'Solve at least 2 LeetCode problems — sharpen logic daily 💻',
+            'Explore Machine Learning & NLP — curiosity fuels progress 🤖',
+            'Build real-world apps — from rural impact to career tools 🌍',
+            'Learn one new thing in tech — even if it’s small 📚',
+            'Stay humble, stay consistent — long-term beats quick wins 💡'
+        ];
     }
- };`;
+  };`;
 
   const code = codeText.value;
 
