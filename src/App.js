@@ -16,7 +16,7 @@ function App() {
             <div className="background-shade"></div>
             <div className="profile-container">
               <div className="profile-name">Subharjun Bose</div>
-              <div className="profile-desc">Full Stack Developer</div>
+              <div className="profile-desc">Full Stack Developer & ML Enthusiast</div>
               <br />
             </div>
           </div>
