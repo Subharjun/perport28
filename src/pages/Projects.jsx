@@ -25,6 +25,12 @@ function Projects() {
         projectdesc: 'live chess game with drag-drop functionality.( not playable on mobile devices currently.. updation is ongoing',
         website: 'https://subharjunchess1on1.onrender.com',
         tools: ['NodeJS', 'ExpressJs', 'ChessJS','Socket.io'],
+    },{
+        projectname: 'AI Career Mentor guide',
+        projectthumbnail: './images/ten.jpg',
+        projectdesc: 'An AI powered app with ML integration, that helps students and aspirants to detrmine their career paths, resume analysis, Video feed to learn topics real quick, Netwoeking and event updates and a customized chatbot to interact with',
+        website: 'https://career-nav-ai-ml-subharjun.onrender.com',
+        tools: ['Python', 'Streamlit', 'ML','API'],
     }
 ]
     return (
