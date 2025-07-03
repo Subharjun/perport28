@@ -106,7 +106,7 @@ function About() {
       <h1>Wanna Know More !</h1>
         <div className="socials">
             
-            <a href="https://www.linkedin.com/in/subharjun-bose-3rd-202132251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel = "noreferrer"><abbr title="My LinkedIn" className="fab fa-linkedin"></abbr></a>
+            <a href="https://www.linkedin.com/in/subharjun-bose-202132251" target="_blank" rel = "noreferrer"><abbr title="My LinkedIn" className="fab fa-linkedin"></abbr></a>
             <a href="mailto:subharjun.bose2805@gmail.com?subject=Inquiry&body=Hello%20Subharjun," target="_blank" rel="noreferrer"><abbr title="My Gmail" className="fas fa-envelope"></abbr></a>
 
             
