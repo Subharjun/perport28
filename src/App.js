@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route , Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 //import pp from './components/pp.jpg';
 
@@ -7,8 +7,8 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 
 function App() {
-    return (
-    <Router>
+  return (
+    <Router basename="/perport28">
       <Switch>
         <center className="App">
           <div className="background-container">
@@ -21,13 +21,13 @@ function App() {
             </div>
           </div>
           <div className="container">
-              <div className="tabs">
+            <div className="tabs">
               <Link to="/about" className="about-link open">ABOUT</Link>
-                <Link to="/projects" className="projects-link">PROJECTS</Link>
-              </div>
-                <Route exact path="/" component={About} />
-                <Route exact path="/projects" component={Projects} />
-                <Route exact path="/about" component={About} />
+              <Link to="/projects" className="projects-link">PROJECTS</Link>
+            </div>
+            <Route exact path="/" component={About} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/about" component={About} />
           </div>
           <div className="footer">
             Made with love by Subharjun
@@ -39,3 +39,4 @@ function App() {
 }
 
 export default App;
+
