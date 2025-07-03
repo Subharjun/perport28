@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Subharjun.github.io/perport28/static/css/main.cbf2f5eb.css",
-    "main.js": "/Subharjun.github.io/perport28/static/js/main.6397a768.js",
-    "static/media/wp.jpg": "/Subharjun.github.io/perport28/static/media/wp.9fd16e2670d88e3d7c4d.jpg",
-    "index.html": "/Subharjun.github.io/perport28/index.html",
-    "main.cbf2f5eb.css.map": "/Subharjun.github.io/perport28/static/css/main.cbf2f5eb.css.map",
-    "main.6397a768.js.map": "/Subharjun.github.io/perport28/static/js/main.6397a768.js.map"
+    "main.css": "/Subharjun28.github.io/perport28/static/css/main.a67403da.css",
+    "main.js": "/Subharjun28.github.io/perport28/static/js/main.6397a768.js",
+    "static/media/wp.jpg": "/Subharjun28.github.io/perport28/static/media/wp.9fd16e2670d88e3d7c4d.jpg",
+    "index.html": "/Subharjun28.github.io/perport28/index.html",
+    "main.a67403da.css.map": "/Subharjun28.github.io/perport28/static/css/main.a67403da.css.map",
+    "main.6397a768.js.map": "/Subharjun28.github.io/perport28/static/js/main.6397a768.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbf2f5eb.css",
+    "static/css/main.a67403da.css",
     "static/js/main.6397a768.js"
   ]
 }
