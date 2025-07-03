@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Subharjun28.github.io/perport28/static/css/main.a67403da.css",
-    "main.js": "/Subharjun28.github.io/perport28/static/js/main.6397a768.js",
-    "static/media/wp.jpg": "/Subharjun28.github.io/perport28/static/media/wp.9fd16e2670d88e3d7c4d.jpg",
-    "index.html": "/Subharjun28.github.io/perport28/index.html",
-    "main.a67403da.css.map": "/Subharjun28.github.io/perport28/static/css/main.a67403da.css.map",
-    "main.6397a768.js.map": "/Subharjun28.github.io/perport28/static/js/main.6397a768.js.map"
+    "main.css": "/perport28/static/css/main.0b228f57.css",
+    "main.js": "/perport28/static/js/main.ed61d6b0.js",
+    "static/media/wp.jpg": "/perport28/static/media/wp.9fd16e2670d88e3d7c4d.jpg",
+    "index.html": "/perport28/index.html",
+    "main.0b228f57.css.map": "/perport28/static/css/main.0b228f57.css.map",
+    "main.ed61d6b0.js.map": "/perport28/static/js/main.ed61d6b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.a67403da.css",
-    "static/js/main.6397a768.js"
+    "static/css/main.0b228f57.css",
+    "static/js/main.ed61d6b0.js"
   ]
 }
