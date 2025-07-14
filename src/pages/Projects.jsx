@@ -15,25 +15,25 @@ function Projects() {
     
     let projects =[{
         projectname: 'RealTime Tracker',
-        projectthumbnail:  './images/one.jpg', 
+        projectthumbnail:  '/images/one.jpg', 
         projectdesc: 'A backend protect to determine live distance and possible ways of reaching the destination from your current location.',
         website: 'https://rttracker-subharjun.onrender.com#RealTimeTracking',
         tools: ['NodeJS','ExpressJS','Leaflet','Socket.io'],
     },{
         projectname: 'Chess 1v1 realTime',
-        projectthumbnail: './images/two.jpg',
+        projectthumbnail: '/images/two.jpg',
         projectdesc: 'live chess game with drag-drop functionality.( not playable on mobile devices currently.. updation is ongoing',
         website: 'https://subharjunchess1on1.onrender.com',
         tools: ['NodeJS', 'ExpressJs', 'ChessJS','Socket.io'],
     },{
         projectname: 'AI Career Mentor guide',
-        projectthumbnail: './images/ten.jpg',
+        projectthumbnail: '/images/ten.jpg',
         projectdesc: 'An AI powered app with ML integration, that helps students and aspirants to detrmine their career paths, resume analysis, Video feed to learn topics real quick, Netwoeking and event updates and a customized chatbot to interact with',
         website: 'https://career-nav-ai-ml.onrender.com',
         tools: ['Python', 'Streamlit', 'ML','API'],
     },{
         projectname: 'AI powereed Village-Gentle',
-        projectthumbnail: './images/nine.jpg',
+        projectthumbnail: '/images/nine.jpg',
         projectdesc: 'An AI powered app with ML integration, that helps villagers to get information about their village, like weather, news, economics, and a customized chatbot to interact with both related to farming and report their issues they are having.',
         website: 'https://vil-new-2-0.onrender.com',
         tools: ['Python', 'Streamlit', 'ML','API', 'GoogleTranslate','GoogleMaps'],
