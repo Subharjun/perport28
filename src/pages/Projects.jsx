@@ -32,12 +32,21 @@ function Projects() {
         website: 'https://career-nav-ai-ml.onrender.com',
         tools: ['Python', 'Streamlit', 'ML','API'],
     },{
-        projectname: 'AI powereed Village-Gentle',
-        projectthumbnail: '/images/nine.jpg',
-        projectdesc: 'An AI powered app with ML integration, that helps villagers to get information about their village, like weather, news, economics, and a customized chatbot to interact with both related to farming and report their issues they are having.',
-        website: 'https://vil-new-2-0.onrender.com',
-        tools: ['Python', 'Streamlit', 'ML','API', 'GoogleTranslate','GoogleMaps'],
-    }
+  projectname: 'AI powereed Village-Gentle',
+  projectthumbnail: '/images/nine.jpg',
+  projectdesc: (
+    <>
+      An AI powered app with ML integration, that helps villagers to get information about their village, like weather, news, economics, and a customized chatbot to interact with both related to farming and report their issues they are having. <br /><br />
+      <strong>You can now try the app version too:</strong> &nbsp;
+      <a href="https://drive.google.com/file/d/1tldjqjFQlH4Ovzz-gRWRXyln3ZODbjef/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+        Download APK
+      </a>
+    </>
+  ),
+  website: 'https://vil-new-2-0.onrender.com',
+  tools: ['Python', 'Streamlit', 'ML', 'API', 'GoogleTranslate', 'GoogleMaps', 'Flutter'],
+ }
+
 ]
     return (
         <div className="projects">
