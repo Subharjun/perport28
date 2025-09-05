@@ -32,21 +32,25 @@ function Projects() {
         website: 'https://career-nav-ai-ml.onrender.com',
         tools: ['Python', 'Streamlit', 'ML','API'],
     },{
-  projectname: 'AI powereed Village-Gentle',
-  projectthumbnail: '/images/nine.jpg',
-  projectdesc: (
-    <>
-      An AI powered app with ML integration, that helps villagers to get information about their village, like weather, news, economics, and a customized chatbot to interact with both related to farming and report their issues they are having. <br /><br />
-      <strong>You can now try the app version too:</strong> &nbsp;
-      <a href="https://drive.google.com/file/d/1tldjqjFQlH4Ovzz-gRWRXyln3ZODbjef/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
-        Download APK
-      </a>
-    </>
-  ),
-  website: 'https://vil-new-2-0.onrender.com',
-  tools: ['Python', 'Streamlit', 'ML', 'API', 'GoogleTranslate', 'GoogleMaps', 'Flutter'],
- }
+        projectname: 'AI Village guide',
+        projectthumbnail: '/images/nine.jpg',
+        projectdesc: 'An AI powered app with ML integration, that helps villagers to get information about their village, like weather, news, economics, and a customized chatbot to interact with both related to farming and report their issues they are having.',
+        website: 'https://vil-new-2-0.onrender.com',
+        tools: ['Python', 'Streamlit', 'ML','API','GoogleMaps'],
+    },{
+        projectname: 'Village_Gentle APK',
+        projectthumbnail: '/images/village_apk.jpg',
+        projectdesc: 'The Apk version of the Village_gentle implented using Flutter and Dart with a solid UI/UX design and mobile compatibility',
+        website: 'https://https://drive.google.com/file/d/1tldjqjFQlH4Ovzz-gRWRXyln3ZODbjef/view?usp=drivesdk',
+        tools: ['Flutter', 'Dart', 'ML','API'],
+    },{
+        projectname: 'Career_Mentor APK',
+        projectthumbnail: '/images/career_apk.jpg',
+        projectdesc: 'The Apk version of the Career_Mentor implemented using Flutter and Dart with a solid UI/UX design and mobile compatibility',
+        website: 'https://drive.google.com/file/d/1y7jl47r93bA1WBdkMIdCqiAE8Zp9nopr/view?usp=drivesdk',
+        tools: ['Flutter', 'Dart', 'ML','API'],
 
+    }
 ]
     return (
         <div className="projects">
