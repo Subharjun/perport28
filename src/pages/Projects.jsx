@@ -41,7 +41,7 @@ function Projects() {
         projectname: 'Village_Gentle APK',
         projectthumbnail: '/images/village_apk.jpg',
         projectdesc: 'The Apk version of the Village_gentle implented using Flutter and Dart with a solid UI/UX design and mobile compatibility',
-        website: 'https://https://drive.google.com/file/d/1tldjqjFQlH4Ovzz-gRWRXyln3ZODbjef/view?usp=drivesdk',
+        website: 'https://drive.google.com/file/d/1A3ToGQwjVAWbMAkkZ5jELm-0h5KtPpne/view?usp=drivesdk',
         tools: ['Flutter', 'Dart', 'ML','API'],
     },{
         projectname: 'Career_Mentor APK',
