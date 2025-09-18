@@ -29,7 +29,7 @@ function Projects() {
         projectname: 'AI Career Mentor guide',
         projectthumbnail: '/images/ten.jpg',
         projectdesc: 'An AI powered app with ML integration, that helps students and aspirants to detrmine their career paths, resume analysis, Video feed to learn topics real quick, Netwoeking and event updates and a customized chatbot to interact with',
-        website: 'https://career-nav-ai-ml.onrender.com',
+        website: 'https://career-mentor-subh28.onrender.com',
         tools: ['Python', 'Streamlit', 'ML','API'],
     },{
         projectname: 'AI Village guide',
@@ -47,7 +47,7 @@ function Projects() {
         projectname: 'Career_Mentor APK',
         projectthumbnail: '/images/career_apk.jpg',
         projectdesc: 'The Apk version of the Career_Mentor implemented using Flutter and Dart with a solid UI/UX design and mobile compatibility',
-        website: 'https://drive.google.com/file/d/1y7jl47r93bA1WBdkMIdCqiAE8Zp9nopr/view?usp=drivesdk',
+        website: 'https://drive.google.com/file/d/15aTeznG5p8j39x7w0_XrsRfRfjis1-g3/view?usp=drivesdk',
         tools: ['Flutter', 'Dart', 'ML','API'],
 
     }
